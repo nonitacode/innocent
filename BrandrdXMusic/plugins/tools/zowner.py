@@ -11,13 +11,19 @@ from BrandrdXMusic.utils.database import add_served_chat, get_assistant
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
-        caption=f"""🍁 𝐏𝐀𝐇𝐋𝐄 𝐉𝐀𝐊𝐄 𝐀𝐍𝐈𝐌𝐀𝐋 𝐊𝐎 𝐏𝐀𝐏𝐀 𝐁𝐎𝐋 🍁""",
+        photo=f"https://files.catbox.moe/h4jbqw.jpg",
+        caption=f"""🎧 Music Bot ka Repo chahiye?
+😅 Sorry bhai, yeh repo free mein nahi milega! 🙅‍♂️🚫
+
+💰 Ye koi roadside DJ system nahi hai 😎🎛️
+🔥 Premium quality chahiye toh 💸 lagana padega!
+👇 Neeche wala button dabao aur 📬 DM karlo
+📦 Best offer for best repo! 🧠💡🎶""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🍁 sᴏᴜʀᴄᴇ 🍁", url=f"https://t.me/smartness_to_hai"
+                        "🍁 sᴏᴜʀᴄᴇ 🍁", url=f"https://t.me/KING0CHANNEL"
                     )
                 ]
             ]
@@ -28,13 +34,20 @@ async def help(client: Client, message: Message):
 @app.on_message(filters.command("clone"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
-        caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner Or Sudo Users For Clone.**""",
+        photo=f"https://files.catbox.moe/h4jbqw.jpg",
+        caption=f"""🎭 Music Bot ka Clone chahiye?
+😅 Sorry bhai, clone bhi free mein nahi milega! 🙅‍♂️🛑
+
+🧠 Original jaisa duplicate chahiye toh 💸 pay karna padega!
+⚙️ Ye koi ctrl+c ctrl+v ka kaam nahi hai 😎🤖
+
+👇 Neeche button dabao aur 📬 DM karlo
+📦 Best price for premium clone! 🧬🔥""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🍁 sᴏᴜʀᴄᴇ 🍁", url=f"https://t.me/smartness_to_hai"
+                        "🍁 sᴏᴜʀᴄᴇ 🍁", url=f"https://t.me/KING0CHANNEL"
                     )
                 ]
             ]
@@ -68,7 +81,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @Knight_Music_Robot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @KING0CHANNEL`**"
         )
         return
 
